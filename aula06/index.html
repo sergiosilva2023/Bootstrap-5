@@ -6,15 +6,21 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Sistema de Layout em Grid</title>
     <style>
-        .h850{
-            height: 850px;
+        .h600{
+            height: 600px;
+        }
+        .h100{
+            height: 100px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-3 bg-dark bg-opacity-50 h850">
+            <div class="col-12 bg-dark bg-opacity-10 h100">
+                <h1>Cabeçalho</h1>
+            </div>
+            <div class="col-12 bg-dark bg-opacity-50 h600 col-sm-3">
         <div class="menu-lateral">
             <ul>
                 <li><a href="index.html">home</li></a>
@@ -22,13 +28,12 @@
             </ul>
         </div>
             </div>
-            <div class="col-6 bg-dark bg-opacity-75 h850">
+            <div class="col-12 bg-dark bg-opacity-75 h600 col-sm-9">
                 <h1>Bem vindo ao meu site</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iste iusto amet sint tempore voluptates nobis molestiae tempora doloremque mollitia?</p>
             </div>
-            <div class="col-3 bg-dark bg-opacity-25 h850">
-                <h2>Noticias</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iste iusto amet sint tempore voluptates nobis molestiae tempora doloremque mollitia?</p>
+            <div class="col-12 bg-dark bg-opacity-25 h100">
+                <h2>Rodape</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
